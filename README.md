@@ -97,7 +97,8 @@ xml:
         android:layout_height="50dp"/>
 
 </LinearLayout>
-![image](https://user-images.githubusercontent.com/82015926/137663669-861a4a89-eb4c-4509-a296-abf233151f7a.png)
+![image](https://user-images.githubusercontent.com/82015926/137665010-50264e0b-eef1-4c33-9d43-46f77988e9d7.png)
+
 
 三、使用XML定义菜单
 public class MainActivity3 extends AppCompatActivity {
@@ -308,4 +309,5 @@ xml：
         app:showAsAction="always"/>
 
 </menu>
-![image](https://user-images.githubusercontent.com/82015926/137664774-05ef1ce6-c8b4-4c2b-a13f-fc5d334c91cd.png)
+![image](https://user-images.githubusercontent.com/82015926/137665052-c395f4a1-1d04-4fef-889a-b776ac254b64.png)
+
