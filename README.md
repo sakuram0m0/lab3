@@ -1,7 +1,7 @@
 # lab3
 
 一、Android ListView的用法
-public class MainActivity extends AppCompatActivity {
+`public class MainActivity extends AppCompatActivity {
 
     private String[] name = new String[]{"Lion", "Tiger", "Monkey", "Dog", "Cat", "Elephant"};
     private int[] touxiang = new int[]{R.drawable.lion, R.drawable.tiger, R.drawable.monkey, R.drawable.dog,
@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-}
+}`
 ![image](https://user-images.githubusercontent.com/82015926/137663500-3ab29cb0-cf57-461e-970c-97e96464019f.png)
 
 二、创建自定义布局的AlertDialog
-public class MainActivity2 extends AppCompatActivity {
+`public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +67,7 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
     }
-}
+}`
 xml:
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -101,7 +101,7 @@ xml:
 
 
 三、使用XML定义菜单
-public class MainActivity3 extends AppCompatActivity {
+`public class MainActivity3 extends AppCompatActivity {
 
     private static final int FONT_10 = 0x111;
     private static final int FONT_16 = 0x112;
@@ -160,13 +160,13 @@ public class MainActivity3 extends AppCompatActivity {
         }
         return true;
     }
-}
+}`
 ![image](https://user-images.githubusercontent.com/82015926/137664303-1c1b8242-b8d8-476c-83f6-3305be1ccde5.png)
 ![image](https://user-images.githubusercontent.com/82015926/137664323-d449c6c7-4bb4-447e-b01a-7936f34dc583.png)
 ![image](https://user-images.githubusercontent.com/82015926/137664352-3b76609e-2712-424d-b83e-cfab6580e209.png)
 
 四、创建上下文操作模式(ActionMode)的上下文菜单
-public class MainActivity4 extends AppCompatActivity {
+`public class MainActivity4 extends AppCompatActivity {
 
     private String[] order = new String[]{"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "ten"};
     TextView count;
@@ -276,7 +276,7 @@ public class MyAdapter extends BaseAdapter {
         ImageView iv;
         TextView tv;
     }
-}
+}`
 xml：
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
